@@ -1,0 +1,27 @@
+/* src/NewBoxForm.css */
+.NewBoxForm {
+    margin-top: 20px;
+}
+
+.NewBoxForm input,
+.NewBoxForm button {
+    display: block;
+    margin: 10px 0;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.NewBoxForm button {
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.NewBoxForm button:hover {
+    background-color: #0056b3;
+}
